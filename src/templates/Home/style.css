@@ -1,0 +1,21 @@
+.container{
+  height: auto;
+  background-color: #f2f2f2;
+}
+.wrapper{
+  width: 100%;
+  max-width: 1170px;
+  display: block;
+  margin: 0 auto;
+}
+.flex-center-vh{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.posts-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); 
+  grid-gap: 25px;
+  padding: 20px;
+}
